@@ -1,10 +1,10 @@
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+
+import ButtonLink from './components/ButtonLink';
 
 export default function Home() {
   return (
-    <main>
+    <main className='w-vw'>
       <article>
         <div>
           <h1 className='text-zinc-300 text-xl font-semibold -mt-14 text-center'>
@@ -12,7 +12,10 @@ export default function Home() {
           </h1>
         </div>
       </article>
-      <article>
+      <article className='flex flex-wrap justify-center items-center w-4/5 mx-auto'>
+        <ButtonLink href="/challenge-01">
+          01
+        </ButtonLink>
 
       </article>
     </main>
