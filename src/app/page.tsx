@@ -1,5 +1,3 @@
-
-
 import ButtonLink from './components/ButtonLink';
 
 export default function Home() {
@@ -12,10 +10,10 @@ export default function Home() {
           </h1>
         </div>
       </article>
-      <article className='flex flex-wrap justify-center items-center w-4/5 mx-auto'>
-        <ButtonLink href="/challenge-01">
-          01
-        </ButtonLink>
+      <article className='flex flex-wrap justify-between items-center w-4/5 mx-auto'>
+
+        <ButtonLink href="/challenge-01">01</ButtonLink>
+
 
       </article>
     </main>
