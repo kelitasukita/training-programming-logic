@@ -13,7 +13,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <div className='bg-teal-600 w-vw h-20'>
 
+        </div>
         {children}
 
       </body>
