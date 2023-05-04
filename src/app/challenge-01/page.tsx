@@ -15,11 +15,11 @@ export default function Challenge01() {
 
         <article className='w-4/5 mx-auto mt-12 text-zinc-500 flex flex-col'>
           <label className='mb-2'>Informe a quantidade máxima do estoque:</label>
-          <input type="number" className='h-8 rounded-lg w-1/2 px-6' />
+          <input type="number" className='h-8 rounded-lg w-1/2 px-4' />
           <label className='mb-2 mt-4'>Informe a quantidade mínima do estoque:</label>
-          <input type="number" className='h-8 rounded-lg w-1/2 px-6' />
+          <input type="number" className='h-8 rounded-lg w-1/2 px-4' />
           <label className='mb-2 mt-4'>Informe a quantidade atual do estoque:</label>
-          <input type="number" className='h-8 rounded-lg w-1/2 px-6' />
+          <input type="number" className='h-8 rounded-lg w-1/2 px-4' />
         </article>
 
         <div className='w-4/5 mx-auto mt-12'>
