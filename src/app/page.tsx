@@ -13,6 +13,7 @@ export default function Home() {
       <article className='flex flex-wrap justify-between items-center w-4/5 mx-auto'>
 
         <ButtonLink href="/challenge-01">01</ButtonLink>
+        <ButtonLink href="/challenge-01">02</ButtonLink>
 
 
       </article>
