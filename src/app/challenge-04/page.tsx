@@ -9,6 +9,17 @@ export default function Challenge03() {
   const [valorB, setValorB] = useState();
   const [valorC, setValorC] = useState();
 
+  const isThisTriangle = () => {
+    if (valorA < (valorB + valorC) && valorB < (valorA + valorC) && valorC < (valorA + valorB)) {
+      return "As medidas correspodem às de um triângulo.";
+    } else if (!valorA && !valorB && !valorC) {
+      return "";
+    } else {
+      return "As medidas não correspondem às de um triângulo.";
+    }
+
+  }
+
   return (
     <main>
       <article className='w-4/5 mx-auto -mt-14'>
@@ -34,7 +45,7 @@ export default function Challenge03() {
       </article>
 
       <div className='w-4/5 mx-auto mt-12'>
-        <p className='text-teal-600 text-lg font-bold'></p>
+        <p className='text-teal-600 text-lg font-bold'>{isThisTriangle()}</p>
       </div>
 
     </main >
