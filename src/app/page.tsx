@@ -15,6 +15,7 @@ export default function Home() {
         <ButtonLink href="/challenge-01">01</ButtonLink>
         <ButtonLink href="/challenge-02">02</ButtonLink>
         <ButtonLink href="/challenge-03">03</ButtonLink>
+        <ButtonLink href="/challenge-04">04</ButtonLink>
       </article>
     </main>
   )

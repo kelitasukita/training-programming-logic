@@ -19,7 +19,7 @@ export default function Challenge03() {
       </article>
 
       <article className='w-4/5 mx-auto mt-12'>
-        <h2 className='text-teal-600 text-lg font-bold'>Exercício 02:</h2>
+        <h2 className='text-teal-600 text-lg font-bold'>Exercício 03:</h2>
         <p className='text-zinc-500 mt-6'>Leia 3 valores os retorne em ordem crescente.</p>
       </article>
 
