@@ -48,9 +48,6 @@ export default function Challenge02() {
         <div className='w-4/5 mx-auto mt-12'>
           <p className='text-teal-600 text-lg font-bold'>{compareValores()}</p>
         </div>
-
-
-
       </main >
     </>
   )
